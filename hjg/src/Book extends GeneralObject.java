@@ -6,3 +6,8 @@ class Book extends GeneralObject {
         this.author = author;
         this.pages = pages;
     }
+    @Override
+    public void displayDetails() {
+        System.out.println("Book ID: " + id + ", Title: " + name + ", Author: " + author + ", Pages: " + pages);
+    }
+}
