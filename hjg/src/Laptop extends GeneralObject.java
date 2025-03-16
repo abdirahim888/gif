@@ -6,3 +6,8 @@ class Laptop extends GeneralObject {
         this.brand = brand;
         this.processorSpeed = processorSpeed;
     }
+    @Override
+    public void displayDetails() {
+        System.out.println("Laptop ID: " + id + ", Model: " + name + ", Brand: " + brand + ", Processor Speed: " + processorSpeed + " GHz");
+    }
+}
