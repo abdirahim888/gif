@@ -5,3 +5,8 @@ abstract class GeneralObject {
         this.name = name;
         this.id = id;
     }
+    public abstract void displayDetails();
+    public double computeValue(double parameter) {
+        return parameter * 1.5;
+    }
+}
